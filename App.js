@@ -9,6 +9,8 @@ import MedRecord from './screens/MedRecord';
 import Tracking from './screens/Tracking';
 import SettingScreen from './screens/SettingScreen';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import AppStack from './navigation/AppStack';
+
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
