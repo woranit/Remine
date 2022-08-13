@@ -13,12 +13,12 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
-function App() {
+const App = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={({ route }) => ({
-          tabBarIcon: ({ focused, color, size = "24px" }) => {
+          tabBarIcon: ({ focused, color, size = "16px" }) => {
             let iconName;
 
             if (route.name === 'หน้าหลัก') {
