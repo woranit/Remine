@@ -1,14 +1,13 @@
+import { AsyncStorage } from '@react-native-async-storage/async-storage';
 import React from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
 
-
-const LogInScreen = () => {
+const LogInScreen = ({navigation}) => {
     return (
         <SafeAreaView>
             <div>LogInScreen</div>
         </SafeAreaView>
 
-    )
+    );
 }
 
 export default LogInScreen
